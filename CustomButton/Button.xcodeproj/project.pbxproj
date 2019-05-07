@@ -13,6 +13,8 @@
 		89D28B03228149980027E85E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D28B02228149980027E85E /* Assets.xcassets */; };
 		89D28B06228149980027E85E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D28B04228149980027E85E /* LaunchScreen.storyboard */; };
 		89D28B0E22814A930027E85E /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D28B0D22814A930027E85E /* BounceButton.swift */; };
+		89D28B1022817D090027E85E /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D28B0F22817D090027E85E /* ShadowButton.swift */; };
+		89D28B12228183E50027E85E /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D28B11228183E50027E85E /* ColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		89D28B05228149980027E85E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89D28B07228149980027E85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D28B0D22814A930027E85E /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		89D28B0F22817D090027E85E /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
+		89D28B11228183E50027E85E /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				89D28AF8228149960027E85E /* AppDelegate.swift */,
 				89D28AFA228149960027E85E /* ViewController.swift */,
 				89D28B0D22814A930027E85E /* BounceButton.swift */,
+				89D28B0F22817D090027E85E /* ShadowButton.swift */,
+				89D28B11228183E50027E85E /* ColorButton.swift */,
 				89D28AFC228149960027E85E /* Main.storyboard */,
 				89D28B02228149980027E85E /* Assets.xcassets */,
 				89D28B04228149980027E85E /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				89D28AFB228149960027E85E /* ViewController.swift in Sources */,
 				89D28B0E22814A930027E85E /* BounceButton.swift in Sources */,
+				89D28B12228183E50027E85E /* ColorButton.swift in Sources */,
 				89D28AF9228149960027E85E /* AppDelegate.swift in Sources */,
+				89D28B1022817D090027E85E /* ShadowButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
