@@ -38,14 +38,15 @@ class RippleButton: UIButton {
     
     
     @objc func shrinkAllowAnimation(){
-        rippleView.transform = CGAffineTransform(scaleX: 0, y: 0)
-        UIView.animate(withDuration: 0.6,
+        UIView.animate(withDuration: 0.5,
                        delay: 0,
                        usingSpringWithDamping: CGFloat(1),
                        initialSpringVelocity: CGFloat(5.0),
                        options: [.curveEaseOut, .allowUserInteraction],
                        animations: {
                         self.rippleView.transform = CGAffineTransform.identity
+        }, completion: {_ in
+            self.rippleView.transform = CGAffineTransform(scaleX: 0, y: 0)
         })
     }
     
@@ -55,14 +56,8 @@ class RippleButton: UIButton {
     
     @objc func shrink(){
         if isCurrentOutside == true{
-            UIView.animate(withDuration: 0.6,
-                           delay: 0,
-                           usingSpringWithDamping: CGFloat(1),
-                           initialSpringVelocity: CGFloat(5.0),
-                           options: [.curveEaseOut],
-                           animations: {
-                            self.rippleView.transform = CGAffineTransform.identity
-            }, completion: {_ in self.isCurrentOutside = false})
+            self.rippleView.transform = CGAffineTransform.identity
+            self.isCurrentOutside = false
         }
     }
     
