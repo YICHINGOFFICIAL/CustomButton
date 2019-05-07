@@ -32,8 +32,8 @@ class ShadowButton: UIButton {
         backgroundView.isUserInteractionEnabled = false
         self.addSubview(backgroundView)
         shadowView.frame.size = self.frame.size
-        shadowView.layer.cornerRadius = self.layer.cornerRadius
         shadowView.layer.position.y += 3
+        shadowView.layer.cornerRadius = self.layer.cornerRadius
         shadowView.backgroundColor = self.backgroundColor?.darker(by: 15)
         shadowView.isUserInteractionEnabled = false
         self.addSubview(shadowView)

@@ -26,7 +26,7 @@
                                     <constraint firstAttribute="width" constant="100" id="xR2-x0-ju1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Go">
+                                <state key="normal" title="Bounce">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -43,7 +43,7 @@
                                     <constraint firstAttribute="height" constant="50" id="bwR-iW-N0Z"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Go">
+                                <state key="normal" title="Shadow">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -60,7 +60,24 @@
                                     <constraint firstAttribute="width" constant="100" id="bCm-Ig-k8o"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Go">
+                                <state key="normal" title="Color">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDo-aQ-5Tb" customClass="RippleButton" customModule="Button" customModuleProvider="target">
+                                <rect key="frame" x="157" y="588" width="100" height="50"/>
+                                <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0Pu-DB-liz"/>
+                                    <constraint firstAttribute="width" constant="100" id="2eA-Yn-l7a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Ripple">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -76,8 +93,10 @@
                             <constraint firstItem="I1Z-O2-3ep" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="LGE-Rq-j3r"/>
                             <constraint firstItem="I1Z-O2-3ep" firstAttribute="top" secondItem="PGi-pz-Drg" secondAttribute="bottom" constant="30" id="U1e-V7-pby"/>
                             <constraint firstItem="z46-PL-RMh" firstAttribute="top" secondItem="I1Z-O2-3ep" secondAttribute="bottom" constant="30" id="a7s-hc-IBN"/>
+                            <constraint firstItem="EDo-aQ-5Tb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bxV-Jj-Vw5"/>
                             <constraint firstItem="z46-PL-RMh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="neQ-a9-7ee"/>
                             <constraint firstItem="PGi-pz-Drg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pvh-s9-KJA"/>
+                            <constraint firstItem="EDo-aQ-5Tb" firstAttribute="top" secondItem="z46-PL-RMh" secondAttribute="bottom" constant="30" id="vei-fP-Ygm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
