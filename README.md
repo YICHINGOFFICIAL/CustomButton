@@ -1,5 +1,10 @@
 CustomButton
 ====
+![](https://img.shields.io/badge/Swift-5.0-blue.svg)
+![](https://img.shields.io/badge/Platform-iOS-brightgreen.svg)
+![](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
+
 Apply the animation effect to all buttons in just two steps！
 ![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/buttonGIF.gif)
 
