@@ -43,7 +43,7 @@ class RippleButton: UIButton {
                        delay: 0,
                        usingSpringWithDamping: CGFloat(1),
                        initialSpringVelocity: CGFloat(5.0),
-                       options: [.curveEaseOut, .allowUserInteraction],
+                       options: [.curveEaseOut, .allowUserInteraction, .beginFromCurrentState],
                        animations: {
                         self.rippleView.transform = CGAffineTransform.identity
         })
@@ -54,11 +54,11 @@ class RippleButton: UIButton {
                        delay: 0.5,
                        usingSpringWithDamping: CGFloat(1),
                        initialSpringVelocity: CGFloat(5.0),
-                       options: [.curveEaseOut, .allowUserInteraction],
+                       options: [.curveEaseOut, .allowUserInteraction, .beginFromCurrentState],
                        animations: {
-                        self.rippleView.transform = self.rippleView.transform.scaledBy(x: 0.01, y: 0.01)
+                        self.rippleView.transform = self.rippleView.transform.scaledBy(x: 0.001, y: 0.001)
         }, completion: {_ in
-            self.rippleView.transform = CGAffineTransform(scaleX: 0, y: 0)
+            //self.rippleView.transform = CGAffineTransform(scaleX: 0, y: 0)
         })
     }
     
