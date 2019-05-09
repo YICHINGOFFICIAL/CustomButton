@@ -7,10 +7,7 @@ CustomButton
 
 Apply the animation effect to all buttons in just two steps!
 
-![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Color.gif)
-![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Bounce.gif)
-![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Shadow.gif)
-![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Ripple.gif)
+<img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Color.gif" width=150><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Bounce.gif" width=150><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Shadow.gif" width=150><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Ripple.gif" width=150>
 
 
 Features
@@ -22,10 +19,10 @@ Animation types
 ---
 | Types   |                                      |
 |:--------|:-------------------------------------|
-| Color   | ![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Color.gif) |
-| Bounce  | ![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Bounce.gif)|
-| Shadow  | ![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Shadow.gif)|
-| Ripple  | ![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Ripple.gif)|
+| Color   | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Color.gif" width=150> |
+| Bounce  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Bounce.gif" width=150>|
+| Shadow  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Shadow.gif" width=150>|
+| Ripple  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Ripple.gif" width=150>|
 
 
 Installation
