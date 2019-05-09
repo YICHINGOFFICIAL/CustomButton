@@ -31,7 +31,8 @@ Change the class of the buttons on the storyboard.
 
 
 
-
+Chinese Version 中文介紹
+---
 Please refer to Chinese version on [My Medium Page](https://medium.com/@YiChing/套用按鈕響應效果至所有viewcontroller-b78d1eb88eb9)
 
 中文版本說明請參考[我的Medium頁面](https://medium.com/@YiChing/套用按鈕響應效果至所有viewcontroller-b78d1eb88eb9)
