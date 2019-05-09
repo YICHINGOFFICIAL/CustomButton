@@ -10,7 +10,7 @@ Features
 
 Installation
 ---
-
+Download the folder and drag the file into your project. Example file: [BounceButton.swift](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/CustomButton/Button/BounceButton.swift)
 
 
 第一步：實作代碼，請參閱[BounceButton.swift](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/CustomButton/Button/BounceButton.swift)文件
