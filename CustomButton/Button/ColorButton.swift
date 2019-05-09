@@ -31,7 +31,7 @@ class ColorButton: UIButton {
                        initialSpringVelocity: CGFloat(25.0),
                        options: [.curveEaseOut, .allowUserInteraction],
                        animations: {
-                        self.backgroundColor = self.defaultColor.darker(by: 15)
+                        self.backgroundColor = self.defaultColor.darker(by: 20)
         })
     }
     
@@ -54,7 +54,7 @@ class ColorButton: UIButton {
                            initialSpringVelocity: CGFloat(15.0),
                            options: [.curveEaseOut],
                            animations: {
-                            self.backgroundColor = self.defaultColor.darker(by: 15)
+                            self.backgroundColor = self.defaultColor.darker(by: 20)
             }, completion: {_ in self.isCurrentOutside = false})
         }
     }

@@ -17,7 +17,8 @@ class RippleButton: UIButton {
     override func awakeFromNib() {
         super.awakeFromNib()
         self.addTarget(self, action: #selector(shrinkAllowAnimation), for: .touchDown)
-        self.addTarget(self, action: #selector(restoreAllowAnimation), for: .touchUpOutside)
+        self.addTarget(self, action: #selector(touchUpInside), for: .touchUpInside)
+        self.addTarget(self, action: #selector(touchUpOutside), for: .touchUpOutside)
         self.addTarget(self, action: #selector(restore), for: .touchDragOutside)
         self.addTarget(self, action: #selector(shrink), for: .touchDragInside)
         self.clipsToBounds = true
@@ -45,12 +46,23 @@ class RippleButton: UIButton {
                        options: [.curveEaseOut, .allowUserInteraction],
                        animations: {
                         self.rippleView.transform = CGAffineTransform.identity
+        })
+    }
+    
+    @objc func touchUpInside(){
+        UIView.animate(withDuration: 0.5,
+                       delay: 0.5,
+                       usingSpringWithDamping: CGFloat(1),
+                       initialSpringVelocity: CGFloat(5.0),
+                       options: [.curveEaseOut, .allowUserInteraction],
+                       animations: {
+                        self.rippleView.transform = self.rippleView.transform.scaledBy(x: 0.01, y: 0.01)
         }, completion: {_ in
             self.rippleView.transform = CGAffineTransform(scaleX: 0, y: 0)
         })
     }
     
-    @objc func restoreAllowAnimation(){
+    @objc func touchUpOutside(){
         self.rippleView.transform = CGAffineTransform(scaleX: 0, y: 0)
     }
     
