@@ -35,8 +35,8 @@ Chinese Version 中文介紹
 ---
 Please refer to Chinese version on [My Medium Page](https://medium.com/@YiChing/套用按鈕響應效果至所有viewcontroller-b78d1eb88eb9)
 
-中文版本說明請參考[我的Medium頁面](https://medium.com/@YiChing/套用按鈕響應效果至所有viewcontroller-b78d1eb88eb9)
+中文版本說明請參考 [我的Medium頁面](https://medium.com/@YiChing/套用按鈕響應效果至所有viewcontroller-b78d1eb88eb9)
 
 License
 ---
-CustomButton is available under MIT license. See the LICENSE file for more info.
+CustomButton is available under MIT license. See the [LICENSE](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/LICENSE) file for more info.
