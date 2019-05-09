@@ -1,7 +1,16 @@
-# CustomButton
-
-本文實作將同樣的動畫響應效果套用至所有ViewController，只要兩步驟，就能把所有按鈕一次一起套用相同效果！
+CustomButton
+====
+Apply the animation effect to all buttons in just two steps！
 ![](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/buttonGIF.gif)
+
+Features
+---
+- [x] Simple to install
+- [x] Easy to learn and use
+
+Installation
+---
+
 
 
 第一步：實作代碼，請參閱[BounceButton.swift](https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/CustomButton/Button/BounceButton.swift)文件
