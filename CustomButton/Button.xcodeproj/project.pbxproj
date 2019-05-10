@@ -17,6 +17,7 @@
 		89D28B1022817D090027E85E /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D28B0F22817D090027E85E /* ShadowButton.swift */; };
 		89D28B12228183E50027E85E /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D28B11228183E50027E85E /* ColorButton.swift */; };
 		89D28B14228186B70027E85E /* RippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D28B13228186B70027E85E /* RippleButton.swift */; };
+		89E9B57B22857C92001E2107 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9B57A22857C92001E2107 /* SpringButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		89D28B0F22817D090027E85E /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
 		89D28B11228183E50027E85E /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
 		89D28B13228186B70027E85E /* RippleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleButton.swift; sourceTree = "<group>"; };
+		89E9B57A22857C92001E2107 /* SpringButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				89D28B0F22817D090027E85E /* ShadowButton.swift */,
 				89D28B13228186B70027E85E /* RippleButton.swift */,
 				8964B96D2284865B0094E1A1 /* StretchButton.swift */,
+				89E9B57A22857C92001E2107 /* SpringButton.swift */,
 				89D28AFC228149960027E85E /* Main.storyboard */,
 				89D28B02228149980027E85E /* Assets.xcassets */,
 				89D28B04228149980027E85E /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 			files = (
 				89D28AFB228149960027E85E /* ViewController.swift in Sources */,
 				89D28B0E22814A930027E85E /* BounceButton.swift in Sources */,
+				89E9B57B22857C92001E2107 /* SpringButton.swift in Sources */,
 				89D28B12228183E50027E85E /* ColorButton.swift in Sources */,
 				8964B96E2284865B0094E1A1 /* StretchButton.swift in Sources */,
 				89D28B14228186B70027E85E /* RippleButton.swift in Sources */,
