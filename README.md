@@ -7,7 +7,7 @@ CustomButton
 
 Apply the animation effect to all buttons in just two steps!
 
-<img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Color.gif" width=150><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Bounce.gif" width=150><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Shadow.gif" width=150><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Ripple.gif" width=150>
+<img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Color.gif" width=130><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Bounce.gif" width=130><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Shadow.gif" width=130><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Ripple.gif" width=130><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Stretch.gif" width=130><img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Spring.gif" width=130>
 
 
 Features
@@ -19,10 +19,12 @@ Animation types
 ---
 | Types   |                                      |
 |:--------|:-------------------------------------|
-| Color   | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Color.gif" width=150> |
-| Bounce  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Bounce.gif" width=150>|
-| Shadow  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Shadow.gif" width=150>|
-| Ripple  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Ripple.gif" width=150>|
+| Color   | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Color.gif" width=150>  |
+| Bounce  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Bounce.gif" width=150> |
+| Shadow  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Shadow.gif" width=150> |
+| Ripple  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Ripple.gif" width=150> |
+| Stretch | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Stretch.gif" width=150>|
+| Spring  | <img src="https://github.com/YICHINGOFFICIAL/CustomButton/blob/master/ReadMeMaterial/Spring.gif" width=150> |
 
 
 Installation
